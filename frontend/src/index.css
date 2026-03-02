@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-white text-gray-900 font-sans antialiased text-base;
+    color: #0F172A;
+  }
+
+  /* Respect user motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Focus styles for keyboard nav */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-500 ring-offset-2;
+  }
+}
+
+@layer components {
+  /* ========= LAYOUT ========= */
+  .page-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-divider {
+    @apply border-t border-gray-100 my-8;
+  }
+
+  /* ========= CARDS ========= */
+  .card {
+    @apply bg-white border border-gray-200 rounded-xl p-6 shadow-sm
+           transition-all duration-200 ease-in-out;
+  }
+
+  .card-interactive {
+    @apply card cursor-pointer transition-all duration-200;
+  }
+  .card-interactive:hover {
+    @apply shadow-md -translate-y-0.5;
+    border-color: #A5B4FC; /* brand-300 */
+  }
+
+  /* ========= BUTTONS ========= */
+  .btn-primary {
+    @apply inline-flex items-center justify-center
+           text-white font-semibold text-sm
+           py-2.5 px-5 rounded-lg
+           shadow-sm border-0 cursor-pointer
+           transition-all duration-150 ease-in-out
+           disabled:opacity-60 disabled:cursor-not-allowed;
+    background-color: #0B3C91;
+  }
+  .btn-primary:hover  { background-color: #092a66; }
+  .btn-primary:active { background-color: #071E4A; }
+  .btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1E5BB8; }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center
+           bg-transparent font-semibold text-sm
+           py-2.5 px-5 rounded-lg
+           transition-all duration-150 ease-in-out cursor-pointer;
+    border: 1px solid #1E5BB8;
+    color: #0B3C91;
+  }
+  .btn-outline:hover  { background-color: #EEF2FF; border-color: #0B3C91; }
+  .btn-outline:active { background-color: #E0E7FF; }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center
+           bg-transparent text-gray-600
+           font-medium text-sm py-2 px-4 rounded-lg
+           transition-all duration-150 ease-in-out cursor-pointer;
+  }
+  .btn-ghost:hover { background-color: #F3F4F6; color: #111827; }
+
+  /* ========= FORM INPUTS ========= */
+  .input-field {
+    @apply w-full border border-gray-200 rounded-lg px-4 py-2.5
+           bg-gray-50 text-gray-900 text-sm
+           transition-all duration-150 ease-in-out appearance-none;
+  }
+  .input-field::placeholder { color: #9CA3AF; }
+  .input-field:focus {
+    outline: none;
+    background-color: #fff;
+    border-color: #1E5BB8;
+    box-shadow: 0 0 0 2px rgba(30, 91, 184, 0.2);
+  }
+
+  /* ========= BADGES ========= */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold;
+  }
+
+  .badge-green {
+    @apply badge bg-emerald-50 text-emerald-700 border border-emerald-200;
+  }
+
+  .badge-orange {
+    @apply badge bg-amber-50 text-amber-700 border border-amber-200;
+  }
+
+  .badge-gray {
+    @apply badge bg-gray-100 text-gray-600 border border-gray-200;
+  }
+
+  .badge-blue {
+    @apply badge;
+    background-color: #EEF2FF;
+    color: #092a66;
+    border: 1px solid #C7D2FE;
+  }
+
+  /* ========= STAT TILES ========= */
+  .stat-tile {
+    @apply bg-white border border-gray-200 rounded-xl p-5 shadow-sm;
+  }
+
+  .stat-label {
+    @apply text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1;
+  }
+
+  .stat-value {
+    @apply text-2xl font-bold text-gray-900;
+  }
+
+  /* ========= PROGRESS BAR ========= */
+  .progress-track {
+    @apply w-full bg-gray-100 rounded-full overflow-hidden;
+    height: 6px;
+  }
+
+  .progress-fill {
+    @apply h-full rounded-full transition-all duration-700 ease-out;
+  }
+
+  /* ========= PAGE SECTION HEADER ========= */
+  .section-title {
+    @apply text-2xl font-bold text-gray-900 tracking-tight;
+  }
+
+  .section-subtitle {
+    @apply text-sm text-gray-500 mt-1 max-w-2xl;
+  }
+
+  /* ========= DIVIDER LINE ========= */
+  .divider {
+    @apply border-t border-gray-100;
+  }
+
+  /* ========= SKELETON LOADER ========= */
+  .skeleton {
+    @apply bg-gray-200 rounded-lg animate-pulse;
+    background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%);
+    background-size: 1000px 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  /* ========= ALERT BANNERS ========= */
+  .alert-info {
+    @apply rounded-xl p-4;
+    background-color: #EEF2FF;
+    border: 1px solid #C7D2FE;
+    color: #071E4A;
+  }
+
+  .alert-warning {
+    @apply bg-amber-50 border border-amber-200 text-amber-800 rounded-xl p-4;
+  }
+
+  .alert-danger {
+    @apply bg-red-50 border border-red-200 text-red-800 rounded-xl p-4;
+  }
+
+  /* ========= NAV UNDERLINE ACTIVE ========= */
+  .nav-link {
+    @apply inline-flex items-center px-1 pt-1 text-sm font-semibold
+           border-b-2 border-transparent
+           transition-all duration-150 ease-in-out;
+    color: #6B7280;
+  }
+  .nav-link:hover { color: #111827; border-color: #D1D5DB; }
+
+  .nav-link-active {
+    @apply nav-link;
+    color: #0B3C91;
+    border-color: #0B3C91;
+  }
+  .nav-link-active:hover { color: #092a66; border-color: #092a66; }
+
+  /* ========= PAGE ANIMATION HELPERS ========= */
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+  .animate-delay-500 { animation-delay: 500ms; }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

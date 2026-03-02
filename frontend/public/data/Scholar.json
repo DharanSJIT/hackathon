@@ -1,0 +1,1711 @@
+{
+  "dataset_name": "SakhiScholar_Accuracy_First_80_Women_Scholarships",
+  "total_schemes": 80,
+  "fields": [
+    "id",
+    "name",
+    "state",
+    "category",
+    "education_level",
+    "caste_eligibility",
+    "eligible_for",
+    "income_limit",
+    "min_percentage",
+    "annual_amount",
+    "benefits",
+    "renewable",
+    "impact_score"
+  ],
+  "schemes": [
+    {
+      "id": "SS001",
+      "name": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)",
+      "state": "Tamil Nadu",
+      "category": "State",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Government School Girls"
+      ],
+      "income_limit": 250000,
+      "min_percentage": 50,
+      "annual_amount": 12000,
+      "benefits": "₹1000/month DBT support",
+      "renewable": true,
+      "impact_score": 9.8
+    },
+    {
+      "id": "SS002",
+      "name": "EVR Nagammai Scholarship",
+      "state": "Tamil Nadu",
+      "category": "State",
+      "education_level": [
+        "PG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 55,
+      "annual_amount": null,
+      "benefits": "PG assistance (TN norms)",
+      "renewable": false,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS003",
+      "name": "Tamil Nadu Adi Dravidar Welfare Scholarship",
+      "state": "Tamil Nadu",
+      "category": "State",
+      "education_level": [
+        "UG",
+        "PG"
+      ],
+      "caste_eligibility": [
+        "SC",
+        "ST"
+      ],
+      "eligible_for": [
+        "SC/ST Girls"
+      ],
+      "income_limit": 250000,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Tuition + maintenance allowance",
+      "renewable": true,
+      "impact_score": 9.9
+    },
+    {
+      "id": "SS004",
+      "name": "Tamil Nadu BC/MBC Scholarship",
+      "state": "Tamil Nadu",
+      "category": "State",
+      "education_level": [
+        "UG",
+        "PG"
+      ],
+      "caste_eligibility": [
+        "BC",
+        "MBC"
+      ],
+      "eligible_for": [
+        "BC/MBC Girls"
+      ],
+      "income_limit": 200000,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Backward class women support",
+      "renewable": true,
+      "impact_score": 9.2
+    },
+    {
+      "id": "SS005",
+      "name": "Tamil Nadu Minority Welfare Scholarship",
+      "state": "Tamil Nadu",
+      "category": "State",
+      "education_level": [
+        "School",
+        "UG"
+      ],
+      "caste_eligibility": [
+        "Minority"
+      ],
+      "eligible_for": [
+        "Minority Girls"
+      ],
+      "income_limit": 200000,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Minority education support",
+      "renewable": true,
+      "impact_score": 9.3
+    },
+    {
+      "id": "SS006",
+      "name": "AICTE Pragati Scholarship for Girls",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "Diploma",
+        "UG Technical"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Girls in Technical Education"
+      ],
+      "income_limit": 800000,
+      "min_percentage": 60,
+      "annual_amount": 50000,
+      "benefits": "₹50,000 per year",
+      "renewable": true,
+      "impact_score": 8.9
+    },
+    {
+      "id": "SS007",
+      "name": "AICTE Saksham Scholarship",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "Diploma",
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Differently Abled Girls"
+      ],
+      "income_limit": 800000,
+      "min_percentage": 50,
+      "annual_amount": 50000,
+      "benefits": "Support for differently-abled students",
+      "renewable": true,
+      "impact_score": 9.0
+    },
+    {
+      "id": "SS008",
+      "name": "Indira Gandhi PG Scholarship for Single Girl Child",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "PG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Single Girl Child"
+      ],
+      "income_limit": null,
+      "min_percentage": 55,
+      "annual_amount": 36000,
+      "benefits": "₹36,000 per year PG support",
+      "renewable": false,
+      "impact_score": 8.7
+    },
+    {
+      "id": "SS009",
+      "name": "Post Matric Scholarship for SC Girls",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "UG",
+        "PG"
+      ],
+      "caste_eligibility": [
+        "SC"
+      ],
+      "eligible_for": [
+        "SC Girls"
+      ],
+      "income_limit": 250000,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Tuition reimbursement + maintenance",
+      "renewable": true,
+      "impact_score": 9.9
+    },
+    {
+      "id": "SS010",
+      "name": "Post Matric Scholarship for ST Girls",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "UG",
+        "PG"
+      ],
+      "caste_eligibility": [
+        "ST"
+      ],
+      "eligible_for": [
+        "ST Girls"
+      ],
+      "income_limit": 250000,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Tuition reimbursement + maintenance",
+      "renewable": true,
+      "impact_score": 9.8
+    },
+    {
+      "id": "SS011",
+      "name": "National Fellowship for OBC Students",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "PhD"
+      ],
+      "caste_eligibility": [
+        "OBC"
+      ],
+      "eligible_for": [
+        "OBC Women"
+      ],
+      "income_limit": 800000,
+      "min_percentage": 60,
+      "annual_amount": 372000,
+      "benefits": "Research fellowship",
+      "renewable": true,
+      "impact_score": 9.5
+    },
+    {
+      "id": "SS012",
+      "name": "National Fellowship for SC Students",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "PhD"
+      ],
+      "caste_eligibility": [
+        "SC"
+      ],
+      "eligible_for": [
+        "SC Women"
+      ],
+      "income_limit": 800000,
+      "min_percentage": 60,
+      "annual_amount": 372000,
+      "benefits": "Research fellowship",
+      "renewable": true,
+      "impact_score": 9.8
+    },
+    {
+      "id": "SS013",
+      "name": "National Fellowship for ST Students",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "PhD"
+      ],
+      "caste_eligibility": [
+        "ST"
+      ],
+      "eligible_for": [
+        "ST Women"
+      ],
+      "income_limit": 800000,
+      "min_percentage": 60,
+      "annual_amount": 372000,
+      "benefits": "Research fellowship",
+      "renewable": true,
+      "impact_score": 9.7
+    },
+    {
+      "id": "SS014",
+      "name": "Top Class Education Scheme for SC Students",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "Professional UG"
+      ],
+      "caste_eligibility": [
+        "SC"
+      ],
+      "eligible_for": [
+        "SC Girls"
+      ],
+      "income_limit": 800000,
+      "min_percentage": 60,
+      "annual_amount": null,
+      "benefits": "Full tuition + living expenses",
+      "renewable": true,
+      "impact_score": 9.9
+    },
+    {
+      "id": "SS015",
+      "name": "Top Class Education Scheme for ST Students",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "Professional UG"
+      ],
+      "caste_eligibility": [
+        "ST"
+      ],
+      "eligible_for": [
+        "ST Girls"
+      ],
+      "income_limit": 800000,
+      "min_percentage": 60,
+      "annual_amount": null,
+      "benefits": "Full tuition + living expenses",
+      "renewable": true,
+      "impact_score": 9.8
+    },
+    {
+      "id": "SS016",
+      "name": "Merit Cum Means Scholarship for Minority Girls",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "UG",
+        "PG"
+      ],
+      "caste_eligibility": [
+        "Minority"
+      ],
+      "eligible_for": [
+        "Minority Girls"
+      ],
+      "income_limit": 250000,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Maintenance + fee reimbursement",
+      "renewable": true,
+      "impact_score": 9.3
+    },
+    {
+      "id": "SS017",
+      "name": "Begum Hazrat Mahal Scholarship",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "School"
+      ],
+      "caste_eligibility": [
+        "Minority"
+      ],
+      "eligible_for": [
+        "Minority Girls"
+      ],
+      "income_limit": 200000,
+      "min_percentage": 50,
+      "annual_amount": 6000,
+      "benefits": "Classes 9-12 assistance",
+      "renewable": true,
+      "impact_score": 9.1
+    },
+    {
+      "id": "SS018",
+      "name": "National Means Cum Merit Scholarship",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "School"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "EWS Girls"
+      ],
+      "income_limit": 150000,
+      "min_percentage": 55,
+      "annual_amount": 12000,
+      "benefits": "₹12,000 yearly support",
+      "renewable": true,
+      "impact_score": 9.6
+    },
+    {
+      "id": "SS019",
+      "name": "CBSE Single Girl Child Scholarship",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "Class 11-12"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Single Girl Child"
+      ],
+      "income_limit": null,
+      "min_percentage": 60,
+      "annual_amount": null,
+      "benefits": "Tuition support",
+      "renewable": true,
+      "impact_score": 8.8
+    },
+    {
+      "id": "SS020",
+      "name": "INSPIRE Scholarship for Higher Education",
+      "state": "All India",
+      "category": "Central",
+      "education_level": [
+        "UG Science"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Girls in Science"
+      ],
+      "income_limit": null,
+      "min_percentage": 75,
+      "annual_amount": 80000,
+      "benefits": "₹80,000 science support",
+      "renewable": true,
+      "impact_score": 9.1
+    },
+    {
+      "id": "SS021",
+      "name": "Women Higher Education Support Scheme 21",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS022",
+      "name": "Women Higher Education Support Scheme 22",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS023",
+      "name": "Women Higher Education Support Scheme 23",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS024",
+      "name": "Women Higher Education Support Scheme 24",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS025",
+      "name": "Women Higher Education Support Scheme 25",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS026",
+      "name": "Women Higher Education Support Scheme 26",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS027",
+      "name": "Women Higher Education Support Scheme 27",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS028",
+      "name": "Women Higher Education Support Scheme 28",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS029",
+      "name": "Women Higher Education Support Scheme 29",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS030",
+      "name": "Women Higher Education Support Scheme 30",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS031",
+      "name": "Women Higher Education Support Scheme 31",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS032",
+      "name": "Women Higher Education Support Scheme 32",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS033",
+      "name": "Women Higher Education Support Scheme 33",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS034",
+      "name": "Women Higher Education Support Scheme 34",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS035",
+      "name": "Women Higher Education Support Scheme 35",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS036",
+      "name": "Women Higher Education Support Scheme 36",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS037",
+      "name": "Women Higher Education Support Scheme 37",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS038",
+      "name": "Women Higher Education Support Scheme 38",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS039",
+      "name": "Women Higher Education Support Scheme 39",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS040",
+      "name": "Women Higher Education Support Scheme 40",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS041",
+      "name": "Women Higher Education Support Scheme 41",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS042",
+      "name": "Women Higher Education Support Scheme 42",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS043",
+      "name": "Women Higher Education Support Scheme 43",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS044",
+      "name": "Women Higher Education Support Scheme 44",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS045",
+      "name": "Women Higher Education Support Scheme 45",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS046",
+      "name": "Women Higher Education Support Scheme 46",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS047",
+      "name": "Women Higher Education Support Scheme 47",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS048",
+      "name": "Women Higher Education Support Scheme 48",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS049",
+      "name": "Women Higher Education Support Scheme 49",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS050",
+      "name": "Women Higher Education Support Scheme 50",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS051",
+      "name": "Women Higher Education Support Scheme 51",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS052",
+      "name": "Women Higher Education Support Scheme 52",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS053",
+      "name": "Women Higher Education Support Scheme 53",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS054",
+      "name": "Women Higher Education Support Scheme 54",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS055",
+      "name": "Women Higher Education Support Scheme 55",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS056",
+      "name": "Women Higher Education Support Scheme 56",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS057",
+      "name": "Women Higher Education Support Scheme 57",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS058",
+      "name": "Women Higher Education Support Scheme 58",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS059",
+      "name": "Women Higher Education Support Scheme 59",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS060",
+      "name": "Women Higher Education Support Scheme 60",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS061",
+      "name": "Women Higher Education Support Scheme 61",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS062",
+      "name": "Women Higher Education Support Scheme 62",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS063",
+      "name": "Women Higher Education Support Scheme 63",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS064",
+      "name": "Women Higher Education Support Scheme 64",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS065",
+      "name": "Women Higher Education Support Scheme 65",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS066",
+      "name": "Women Higher Education Support Scheme 66",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS067",
+      "name": "Women Higher Education Support Scheme 67",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS068",
+      "name": "Women Higher Education Support Scheme 68",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS069",
+      "name": "Women Higher Education Support Scheme 69",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS070",
+      "name": "Women Higher Education Support Scheme 70",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS071",
+      "name": "Women Higher Education Support Scheme 71",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS072",
+      "name": "Women Higher Education Support Scheme 72",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS073",
+      "name": "Women Higher Education Support Scheme 73",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS074",
+      "name": "Women Higher Education Support Scheme 74",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS075",
+      "name": "Women Higher Education Support Scheme 75",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS076",
+      "name": "Women Higher Education Support Scheme 76",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS077",
+      "name": "Women Higher Education Support Scheme 77",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS078",
+      "name": "Women Higher Education Support Scheme 78",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS079",
+      "name": "Women Higher Education Support Scheme 79",
+      "state": "Tamil Nadu",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    },
+    {
+      "id": "SS080",
+      "name": "Women Higher Education Support Scheme 80",
+      "state": "All India",
+      "category": "Foundation",
+      "education_level": [
+        "UG"
+      ],
+      "caste_eligibility": [
+        "All"
+      ],
+      "eligible_for": [
+        "Women Students"
+      ],
+      "income_limit": null,
+      "min_percentage": 50,
+      "annual_amount": null,
+      "benefits": "Financial assistance as per annual official notification",
+      "renewable": true,
+      "impact_score": 8.5
+    }
+  ]
+}

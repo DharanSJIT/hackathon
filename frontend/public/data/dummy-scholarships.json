@@ -1,0 +1,32 @@
+[
+  {
+    "scheme_id": "BULK_001",
+    "name": "Kanya Vidyadhan Yojana (Bulk Uploaded)",
+    "description": "Financial assistance program automatically uploaded via JSON for higher education.",
+    "eligibility_criteria": {
+      "min_class": 11,
+      "max_class": 12,
+      "father_occupation_allowed": ["Farmer", "Laborer", "Any"],
+      "min_marks_percentage": 50
+    },
+    "amount": 25000,
+    "deadline": "2026-10-31T00:00:00.000Z",
+    "social_uplift_score": 90,
+    "application_link": "https://scholarships.gov.in/"
+  },
+  {
+    "scheme_id": "BULK_002",
+    "name": "E-Kalyan Post Matric (Bulk Uploaded)",
+    "description": "Automated JSON dataset for post-matric welfare scholarship mapping to backward demographics.",
+    "eligibility_criteria": {
+      "min_class": 11,
+      "max_class": null,
+      "father_occupation_allowed": ["Any"],
+      "min_marks_percentage": 45
+    },
+    "amount": 18000,
+    "deadline": "2026-08-15T00:00:00.000Z",
+    "social_uplift_score": 99,
+    "application_link": "https://ekalyan.cgg.gov.in/"
+  }
+]
