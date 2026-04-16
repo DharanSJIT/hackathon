@@ -34,7 +34,16 @@ const Dashboard = () => {
   useEffect(() => {
     if (!user) { navigate('/profile'); return; }
     const matched = localStorage.getItem('eligible_schemes');
-    if (matched) setSchemes(JSON.parse(matched));
+    if (matched) {
+      const parsed = JSON.parse(matched);
+      // Normalize: handle both { scheme, eligibilityScore } and flat scheme objects
+      const normalized = parsed.map(m => {
+        if (m?.scheme) return m;
+        if (m?.scholarship) return { scheme: m.scholarship, eligibilityScore: m.eligibility_score ?? 75, finalRankScore: m.eligibility_score ?? 75, badge: 'Gray: General' };
+        return { scheme: m, eligibilityScore: m?.eligibilityScore ?? 75, finalRankScore: m?.finalRankScore ?? 75, badge: m?.badge ?? 'Gray: General' };
+      }).filter(m => m.scheme?._id);
+      setSchemes(normalized);
+    }
     // Trigger entrance animations shortly after mount
     const t = setTimeout(() => setVisible(true), 60);
     return () => clearTimeout(t);

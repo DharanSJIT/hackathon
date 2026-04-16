@@ -29,17 +29,19 @@ const ProfileForm = () => {
     setError('');
     
     try {
-      // Create user and get matched schemes in one step (or two)
-      const res = await axios.post('http://localhost:5001/api/user/create', formData);
-      const user = res.data.user;
-      
+      const user = {
+        ...formData,
+        marks: parseFloat(formData.percentage),
+        student_class: formData.educationLevel === 'High School' ? 10 : formData.educationLevel === 'Undergraduate' ? 13 : 16,
+        father_occupation: 'farmer', // default for matching
+      };
+
       localStorage.setItem('user', JSON.stringify(user));
       setUser(user);
 
-      // Perform matching logic
       const matchRes = await axios.post('http://localhost:5001/api/match', user);
       localStorage.setItem('eligible_schemes', JSON.stringify(matchRes.data));
-      
+
       navigate('/dashboard');
     } catch (err) {
       setError(err.response?.data?.error || 'Failed to analyze profile.');

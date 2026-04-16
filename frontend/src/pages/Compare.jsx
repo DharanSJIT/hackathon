@@ -14,7 +14,15 @@ const Compare = () => {
       navigate('/profile');
       return;
     }
-    setSchemes(JSON.parse(matched));
+    const parsed = JSON.parse(matched);
+    const normalized = parsed
+      .map(m => {
+        if (m?.scheme) return m;
+        if (m?.scholarship) return { scheme: m.scholarship, eligibilityScore: m.eligibility_score ?? 75, finalRankScore: m.eligibility_score ?? 75 };
+        return { scheme: m, eligibilityScore: m?.eligibilityScore ?? 75, finalRankScore: m?.finalRankScore ?? 75 };
+      })
+      .filter(m => m.scheme?._id);
+    setSchemes(normalized);
   }, [navigate]);
 
   const sortedSchemes = [...schemes].sort((a, b) => {
@@ -92,7 +100,7 @@ const Compare = () => {
                      {item.scheme.name}
                    </td>
                    <td className="px-6 py-5 whitespace-nowrap text-sm text-gray-700 border-r border-gray-100 font-medium">
-                     ₹{item.scheme.benefit_amount.toLocaleString()}
+                     ₹{(item.scheme.benefit_amount || item.scheme.amount || 0).toLocaleString()}
                    </td>
                    <td className="px-6 py-5 whitespace-nowrap text-sm text-center border-r border-gray-100">
                      {item.scheme.tuition_coverage ? (

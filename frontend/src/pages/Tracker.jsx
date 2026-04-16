@@ -9,7 +9,14 @@ const Tracker = () => {
     // Generate mock applications based on stored matched schemes for demonstration
     const stored = localStorage.getItem('eligible_schemes');
     if (stored) {
-      const schemes = JSON.parse(stored).slice(0, 3).map((match, idx) => {
+      const schemes = JSON.parse(stored)
+        .map(m => {
+          if (m?.scheme) return m;
+          if (m?.scholarship) return { scheme: m.scholarship, eligibilityScore: m.eligibility_score ?? 75 };
+          return { scheme: m, eligibilityScore: m?.eligibilityScore ?? 75 };
+        })
+        .filter(m => m.scheme?._id)
+        .slice(0, 3).map((match, idx) => {
         let status = 'Pending';
         if (idx === 0) status = 'Given Reminder';
         if (idx === 1) status = 'In Progress';
@@ -76,7 +83,11 @@ const Tracker = () => {
                     <div className="space-y-3 mb-6">
                       <div className="flex justify-between text-sm">
                         <span className="text-gray-500 font-medium">Annual Benefit</span>
-                        <span className="text-gray-900 font-bold">₹{app.benefit.toLocaleString()}</span>
+                        {/* <span className="text-gray-900 font-bold">₹{app.benefit.toLocaleString()}</span>
+                         */}
+                        <span className="text-gray-900 font-bold">
+                          ₹{app.benefit ? app.benefit.toLocaleString('en-IN') : '0'}
+                        </span>
                       </div>
                       <div className="flex justify-between text-sm">
                         <span className="text-gray-500 font-medium">Deadline</span>

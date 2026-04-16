@@ -189,4 +189,76 @@ router.post('/apply', async (req, res) => {
   }
 });
 
+// GET /api/roadmap/:id -> Get Application Roadmap for a Scholarship
+router.get('/roadmap/:id', async (req, res) => {
+  try {
+    const sch = await Scholarship.findById(req.params.id);
+    if (!sch) return res.status(404).json({ error: 'Scholarship not found' });
+
+    // Generate a generic roadmap for the scholarship application
+    const roadmap = {
+      title: `${sch.name} - Application Roadmap`,
+      steps: [
+        {
+          id: 1,
+          text: 'Prepare Your Profile',
+          checklist: [
+            'Gather personal identification documents (Aadhar, Pan)',
+            'Collect academic transcripts and mark sheets',
+            'Prepare proof of income/father\'s occupation',
+            `Verify eligibility: Class ${sch.eligibility_criteria.min_class}-${sch.eligibility_criteria.max_class}, Marks: ${sch.eligibility_criteria.min_marks_percentage}%+`
+          ]
+        },
+        {
+          id: 2,
+          text: 'Fill Application Form',
+          checklist: [
+            'Create account in the scholarship portal',
+            'Fill personal information accurately',
+            'Enter academic details and current class',
+            'Upload mark sheets and certificates',
+            'Enter father\'s occupation information'
+          ]
+        },
+        {
+          id: 3,
+          text: 'Submit Documents',
+          checklist: [
+            'Prepare all required supporting documents',
+            'Scan documents in PDF format (less than 5MB each)',
+            'Upload documents to the portal',
+            'Verify all uploads are successful'
+          ]
+        },
+        {
+          id: 4,
+          text: 'Review & Submit',
+          checklist: [
+            'Review all entered information for accuracy',
+            'Check that all required fields are completed',
+            'Read terms and conditions',
+            'Submit your application',
+            'Save your application reference number'
+          ]
+        },
+        {
+          id: 5,
+          text: 'Track Application Status',
+          checklist: [
+            'Monitor application status in your dashboard',
+            'Check email for updates and notifications',
+            'Contact support if needed with your reference number',
+            'Prepare for interview (if applicable)',
+            'Await final scholarship decision'
+          ]
+        }
+      ]
+    };
+
+    res.json(roadmap);
+  } catch(e) {
+    res.status(500).json({error: e.message});
+  }
+});
+
 module.exports = router;
