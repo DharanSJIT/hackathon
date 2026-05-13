@@ -84,7 +84,10 @@ const ChatInterface = () => {
   const handleApply = async (sch_id) => {
     setApplyState({...applyState, [sch_id]: 'loading'});
     try {
-      const res = await axios.post('http://localhost:5001/api/apply', { scholarship_id: sch_id, email: 'test@example.com' });
+      const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
+      const email = storedUser?.email || 'test@example.com';
+      const phone = storedUser?.phone || '';
+      const res = await axios.post('http://localhost:5001/api/apply', { scholarship_id: sch_id, email, phone });
       setApplyState({...applyState, [sch_id]: 'success'});
       alert(res.data.message);
     } catch (e) {
